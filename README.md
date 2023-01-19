@@ -3,8 +3,7 @@ This repository contains the Terraform code to deploy a Google Kubernetes Engine
 the cluster set as private cluster with external load balancer.
 with the cluster also 2 more applications deployed using helm provider, and NATS.io server
 
-<img src="global-ext-https-lb.png" alt="Structure">
-<img src="0ce03014cce9b9446bc72ccce382aa4e66e427c6588e63ae66e8764d68b283ba.png" alt="Structure">
+<img src="architecture.png" alt="Structure">
 ## Providers
 
 - `google` version `4.27.0`
